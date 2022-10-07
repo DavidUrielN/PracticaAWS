@@ -10,7 +10,7 @@ import pickle
 from datetime import date
 from sodapy import Socrata
 #%% Cargado de las credenciales (Tanto de la API como de S3)
-with open("/home/PracticaAWS/credentials.yaml", "r") as f:
+with open("/home/credentials.yaml", "r") as f:
     config = yaml.safe_load(f)
 #%%
 # print(config)
