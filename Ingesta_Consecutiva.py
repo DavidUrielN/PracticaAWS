@@ -12,7 +12,7 @@ from datetime import date
 from sodapy import Socrata
 #%% Cargado de las credenciales (Tanto de la API como de S3)
 
-with open("C:/Users/chale/Documents/Maestria_Ciencia_de_datos_aplicada/Trimestre_IV/Aplicaciones_de_ciencia_de_datos_I/credentials.yaml", "r") as f:
+with open("/home/credentials.yaml", "r") as f:
     config = yaml.safe_load(f)
 # with open("/home/credentials.yaml", "r") as f:
 #     config = yaml.safe_load(f)
